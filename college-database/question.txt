@@ -1,0 +1,25 @@
+College system 
+ 
+In continuation to the student records, link it with college records. 
+College has various departments. Department contains various type of faculties 
+professor, HOD, office staffs and lab assistants. Department has students  
+ 
+- Every faculty have name, age, qualifications, department at which they work, contact 
+details.  
+- Department has name, hod, faculties and labs 
+- Lab has name, and lab assistants faculties .  
+- Every professor is a proctor for a class( say 3rd year IT section A).  
+- Lab assistant always take care of single lab. 
+- Every student have cgpa and belongs to one department  
+ 
+ 
+Operation:  
+- Populate data for departments, faculties and lab details.  
+- Print the details of the faculties - use polymorphism  
+- Calculate exam fee for a student based on their cgpa  
+1.Base exam fee is 5000 
+2.Apply 10% discount for cgpa > 9 
+3.7 % for cgpa > =8  
+4.5% for cgpa >=7 
+ 
+- Handle your validations using exception. Create your own exceptions if needed.  
